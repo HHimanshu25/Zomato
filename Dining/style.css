@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: Okra, Helvetica, sans-serif;
+    a{
+        text-decoration: none;
+    }
 }
 
 nav {
@@ -129,6 +132,9 @@ header {
     }
 
 
+}
+.hedd{
+    border-bottom:2px solid rgb(228, 115, 115);
 }
 
 .hed li {
