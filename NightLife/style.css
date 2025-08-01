@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Okra, Helvetica, sans-serif;
-    a{
+
+    a {
         text-decoration: none;
     }
 }
@@ -122,8 +123,8 @@ header {
     display: flex;
     justify-content: center;
     background-color: white;
-    
-    
+
+
 }
 
 .hed {
@@ -132,15 +133,12 @@ header {
     list-style-type: none;
     gap: 50px;
 
-    :hover {
-        border-bottom: 2px solid;
-
-    }
 
 
 }
-.hedd{
-    border-bottom:2px solid rgb(228, 115, 115);
+
+.hedd {
+    border-bottom: 3px solid rgb(228, 115, 115);
 }
 
 .hed li {
@@ -254,7 +252,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    
+
 
 }
 
@@ -441,7 +439,8 @@ footer {
         font-weight: 200;
 
     }
-  li {
+
+    li {
         list-style: none;
         margin: 10px 0;
         color: #a2a2a2;

@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: Okra, Helvetica, sans-serif;
-    a{
+
+    a {
         text-decoration: none;
     }
+
     /* background-color: white; */
 }
 
@@ -132,15 +134,12 @@ header {
     list-style-type: none;
     gap: 50px;
 
-    :hover {
-        border-bottom: 1px solid;
-
-    }
 
 
 }
-.hedd{
-    border-bottom:1px solid rgb(228, 115, 115);
+
+.hedd {
+    border-bottom: 3px solid rgb(228, 115, 115);
 }
 
 .hed li {
@@ -194,7 +193,7 @@ header {
 }
 
 .first {
-    background-color:#f8f8f8;
+    background-color: #f8f8f8;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -209,31 +208,33 @@ header {
         padding: 30px 0px;
     }
 
- .orders{
-    display: flex;
-    width: 1100px;
-    justify-content: space-between;  
-    overflow-x: scroll;
-    gap: 40px;  
-    scrollbar-width: none;
-    /*  */
- }
- .order{
-    min-width:150px;
-    span{
-        width: 150px;
-        text-align: center;
-        display: inline-block;
-        padding-top: 10px;
-        font-size: 25px;
+    .orders {
+        display: flex;
+        width: 1100px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        gap: 40px;
+        scrollbar-width: none;
+        /*  */
     }
- }
+
+    .order {
+        min-width: 150px;
+
+        span {
+            width: 150px;
+            text-align: center;
+            display: inline-block;
+            padding-top: 10px;
+            font-size: 25px;
+        }
+    }
 
     .meal {
         min-height: 150px;
         min-width: 150px;
         border-radius: 50%;
-        
+
         /* background-color: black; */
         background-size: contain;
         background-repeat: no-repeat;
@@ -264,21 +265,27 @@ header {
     .meal6 {
         background-image: url(/Images/order6.avif);
     }
+
     .meal7 {
         background-image: url(/Images/order7.avif);
     }
+
     .meal8 {
         background-image: url(/Images/order8.avif);
     }
+
     .meal9 {
         background-image: url(/Images/order9.avif);
     }
+
     .meal10 {
         background-image: url(/Images/order10.avif);
     }
+
     .meal11 {
         background-image: url(/Images/order11.avif);
     }
+
     .meal12 {
         background-image: url(/Images/order12.avif);
     }
@@ -304,20 +311,23 @@ header {
 
     }
 }
-.second{
+
+.second {
     width: 1100px;
     margin: auto;
 
 }
-.brna{
+
+.brna {
     display: inline-block;
     font-size: 35px;
     width: 1100px;
     margin: auto;
-    padding: 30px 0px ;
+    padding: 30px 0px;
 
 }
-.brands{
+
+.brands {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -326,24 +336,29 @@ header {
     scrollbar-width: none;
 
 }
-.brand{
+
+.brand {
     min-width: 150px;
     height: auto;
     line-height: 1.6;
     /* background-color: black; */
     text-align: center;
-    span{
+
+    span {
         display: block;
     }
-    .h{
+
+    .h {
         font-size: 16px;
     }
-    .p  {
+
+    .p {
         font-size: 14px;
         color: #767676;
     }
 }
-.brlo{
+
+.brlo {
     min-width: 150px;
     min-height: 150px;
     border-radius: 50%;
@@ -351,40 +366,49 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 10px;
-/* box-shadow:0px 0px 1px 1px; */
+    /* box-shadow:0px 0px 1px 1px; */
 
 
 }
-.brlo1{
+
+.brlo1 {
     background-image: url(/Images/br1.avif);
-    background-size:contain;
+    background-size: contain;
 }
 
-.brlo2{
+.brlo2 {
     background-image: url(/Images/br2.avif);
 }
-.brlo3{
+
+.brlo3 {
     background-image: url(/Images/br3.avif);
 }
-.brlo4{
+
+.brlo4 {
     background-image: url(/Images/br4.avif);
 }
-.brlo5{
+
+.brlo5 {
     background-image: url(/Images/br5.avif);
 }
-.brlo6{
+
+.brlo6 {
     background-image: url(/Images/br6.avif);
 }
-.brlo7{
+
+.brlo7 {
     background-image: url(/Images/br7.avif);
 }
-.brlo8{
+
+.brlo8 {
     background-image: url(/Images/br8.avif);
 }
-.brlo9{
+
+.brlo9 {
     background-image: url(/Images/br9.png);
 }
-.brlo10{
+
+.brlo10 {
     background-image: url(/Images/br10.avif);
 }
 
@@ -444,7 +468,7 @@ header {
 .sid1 {
     h4 {
         white-space: nowrap;
-        width: 200px;        
+        width: 200px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -482,15 +506,18 @@ header {
         padding-right: 10px;
         margin-left: 50px;
     }
-.w{
-    font-size: 14px;
-}
+
+    .w {
+        font-size: 14px;
+    }
+
     .o {
         color: rgb(62, 61, 61);
         font-size: 11px;
 
     }
 }
+
 footer {
     padding-top: 50px;
 
@@ -559,7 +586,8 @@ footer {
         font-weight: 200;
 
     }
-  li {
+
+    li {
         list-style: none;
         margin: 10px 0;
         color: #a2a2a2;
