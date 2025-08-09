@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+
+  h1{
+    font-weight: 100;
+  }
+}
+
+.close-btn {
+
+  font-size: 24px;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.signbox {
+  background-color: white;
+  padding: 30px;
+  width: 450px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.input {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.input input {
+  height: 50px;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  /* color: #ccc; */
+
+}
+
+.input input:focus {
+  outline-color: rgb(0, 177, 247);
+
+}
+
+label button {
+  display: block;
+  width: 390px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white;
+  background-color: #ccc;
+  margin-top: 20px;
+}
+
+input:checked~.acc {
+  background-color: #f25767;
+  transition: all 0.2s linear ;
+}
+
+.divider {
+  text-align: center;
+  margin: 10px 0;
+  color: #aaa;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.bottom {
+  width: 430px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0px;
+
+}
+
+.footer-text {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+
+.footer-text a {
+  color: #f25767;
+  text-decoration: none;
+
+}
