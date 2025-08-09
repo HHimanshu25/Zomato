@@ -1,1 +1,1 @@
-# Zomato
+It's for study purpose
