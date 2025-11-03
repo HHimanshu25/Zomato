@@ -231,20 +231,20 @@ header {
 }
 
 .pho1 {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(/Images/jai1.avif);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../Images/jai1.avif);
 }
 
 .pho2 {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(/Images/jai2.avif);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../Images/jai2.avif);
 }
 
 .pho3 {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(/Images/jai3.avif);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../Images/jai3.avif);
 
 }
 
 .pho4 {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(/Images/jai4.avif);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6)), url(../Images/jai4.avif);
 }
 
 .town {
