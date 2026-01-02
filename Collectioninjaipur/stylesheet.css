@@ -1,7 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;    
     font-family: Okra, Helvetica, sans-serif;
+
+    a{
+        color: #323232;
+        text-decoration: none;
+    }
 }
 
 nav {
@@ -18,8 +23,6 @@ nav {
 }
 
 .logo {
-
-
     img {
         width: 129px;
         height: 27px;
@@ -108,6 +111,7 @@ nav button {
 }
 
 .log {
+    
     margin-left: 30px;
     /* font-weight:500; */
 }
@@ -178,7 +182,7 @@ nav button {
 }
 
 .pho1 {
-    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai1.avif);
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai1.avif);
     
     
     
@@ -186,53 +190,53 @@ nav button {
 
 .pho2 {
     
-    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai2.avif);
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai2.avif);
 }
 
 .pho3 {
-    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai3.avif);
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai3.avif);
     
 }
 
 .pho4 {
-    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai4.avif);
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai4.avif);
     
 }
 .pho5{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai5.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai5.avif);
 }
 .pho6{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai6.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai6.avif);
 }
 .pho7{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai7.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai7.avif);
 }
 .pho8{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai8.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai8.avif);
 }
 .pho9{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai9.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai9.avif);
 }
 .pho10{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai10.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai10.avif);
 }
 .pho11{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai11.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai11.avif);
 }
 .pho12{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai12.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai12.avif);
 }
 .pho13{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai13.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai13.avif);
 }
 .pho14{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai14.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai14.avif);
 }
 .pho15{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai15.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai15.avif);
 }
 .pho16{
-        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(/Images/jai16.avif);
+        background-image: linear-gradient(to bottom, rgb(0,0,0,0.0), rgba(0,0,0,0.6)), url(../Images/jai16.avif);
 }
 
 .town {
